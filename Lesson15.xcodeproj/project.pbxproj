@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5B3E661C665F160090501F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B3E611C665ED20090501F /* MBProgressHUD.framework */; };
+		AA5B3E691C6662010090501F /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B3E681C6662010090501F /* AppViewController.m */; };
 		AA7608F11C662B1600A512BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F01C662B1600A512BD /* main.m */; };
 		AA7608F41C662B1600A512BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F31C662B1600A512BD /* AppDelegate.m */; };
-		AA7608F71C662B1600A512BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F61C662B1600A512BD /* ViewController.m */; };
+		AA7608F71C662B1600A512BD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F61C662B1600A512BD /* LoginViewController.m */; };
 		AA7608FA1C662B1600A512BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7608F81C662B1600A512BD /* Main.storyboard */; };
 		AA7608FC1C662B1600A512BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7608FB1C662B1600A512BD /* Assets.xcassets */; };
 		AA7608FF1C662B1600A512BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7608FD1C662B1600A512BD /* LaunchScreen.storyboard */; };
+		AA7609081C66342800A512BD /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7609071C66342800A512BD /* NetManager.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AA5B3E5E1C665ED20090501F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D286A7491518C70F00E13FB8;
+			remoteInfo = "MBProgressHUD Static Library";
+		};
+		AA5B3E601C665ED20090501F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D104D7A1ACA36CC00973364;
+			remoteInfo = "MBProgressHUD Framework";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		AA5B3E671C6662010090501F /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		AA5B3E681C6662010090501F /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		AA7608EC1C662B1600A512BD /* Lesson15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7608F01C662B1600A512BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA7608F21C662B1600A512BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA7608F31C662B1600A512BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA7608F51C662B1600A512BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA7608F61C662B1600A512BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA7608F51C662B1600A512BD /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AA7608F61C662B1600A512BD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		AA7608F91C662B1600A512BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7608FB1C662B1600A512BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7608FE1C662B1600A512BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7609001C662B1600A512BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA7609061C66342800A512BD /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		AA7609071C66342800A512BD /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +58,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5B3E661C665F160090501F /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA5B3E5A1C665ED20090501F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5B3E5F1C665ED20090501F /* libMBProgressHUD.a */,
+				AA5B3E611C665ED20090501F /* MBProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		AA7608E31C662B1600A512BD = {
 			isa = PBXGroup;
 			children = (
+				AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */,
 				AA7608EE1C662B1600A512BD /* Lesson15 */,
 				AA7608ED1C662B1600A512BD /* Products */,
 			);
@@ -60,13 +96,17 @@
 			children = (
 				AA7608F21C662B1600A512BD /* AppDelegate.h */,
 				AA7608F31C662B1600A512BD /* AppDelegate.m */,
-				AA7608F51C662B1600A512BD /* ViewController.h */,
-				AA7608F61C662B1600A512BD /* ViewController.m */,
+				AA7608F51C662B1600A512BD /* LoginViewController.h */,
+				AA7608F61C662B1600A512BD /* LoginViewController.m */,
 				AA7608F81C662B1600A512BD /* Main.storyboard */,
 				AA7608FB1C662B1600A512BD /* Assets.xcassets */,
 				AA7608FD1C662B1600A512BD /* LaunchScreen.storyboard */,
 				AA7609001C662B1600A512BD /* Info.plist */,
 				AA7608EF1C662B1600A512BD /* Supporting Files */,
+				AA7609061C66342800A512BD /* NetManager.h */,
+				AA7609071C66342800A512BD /* NetManager.m */,
+				AA5B3E671C6662010090501F /* AppViewController.h */,
+				AA5B3E681C6662010090501F /* AppViewController.m */,
 			);
 			path = Lesson15;
 			sourceTree = "<group>";
@@ -124,12 +164,35 @@
 			mainGroup = AA7608E31C662B1600A512BD;
 			productRefGroup = AA7608ED1C662B1600A512BD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AA5B3E5A1C665ED20090501F /* Products */;
+					ProjectRef = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AA7608EB1C662B1600A512BD /* Lesson15 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AA5B3E5F1C665ED20090501F /* libMBProgressHUD.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMBProgressHUD.a;
+			remoteRef = AA5B3E5E1C665ED20090501F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA5B3E611C665ED20090501F /* MBProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MBProgressHUD.framework;
+			remoteRef = AA5B3E601C665ED20090501F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA7608EA1C662B1600A512BD /* Resources */ = {
@@ -149,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7608F71C662B1600A512BD /* ViewController.m in Sources */,
+				AA5B3E691C6662010090501F /* AppViewController.m in Sources */,
+				AA7608F71C662B1600A512BD /* LoginViewController.m in Sources */,
+				AA7609081C66342800A512BD /* NetManager.m in Sources */,
 				AA7608F41C662B1600A512BD /* AppDelegate.m in Sources */,
 				AA7608F11C662B1600A512BD /* main.m in Sources */,
 			);
@@ -300,6 +365,7 @@
 				AA7609051C662B1600A512BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
