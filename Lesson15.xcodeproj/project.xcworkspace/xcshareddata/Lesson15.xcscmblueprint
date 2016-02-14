@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "71268980509B27266AE96CDF69E32567D9AFFFDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F444530EA05E325E3E0562A78342DBBE68A6AD27" : 0,
+    "71268980509B27266AE96CDF69E32567D9AFFFDF" : 0,
+    "4182765C525509B305166AB949D5935FD5C85212" : 0,
+    "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "607B63C7-0C46-4182-81DA-35DC2A12FF6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F444530EA05E325E3E0562A78342DBBE68A6AD27" : "",
+    "71268980509B27266AE96CDF69E32567D9AFFFDF" : "Course2-15\/",
+    "4182765C525509B305166AB949D5935FD5C85212" : "Course2-15\/MBProgressHUD\/",
+    "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lesson15",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lesson15.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jdg\/MBProgressHUD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4182765C525509B305166AB949D5935FD5C85212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Timofeeva_11-405\/timofeevam_11-405.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66F677A90FC50DCAFA27B0DC1A4C81A758C7D950"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MariMiMari\/Course2-15.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71268980509B27266AE96CDF69E32567D9AFFFDF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Timofeeva_11-405\/projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F444530EA05E325E3E0562A78342DBBE68A6AD27"
+    }
+  ]
+}
