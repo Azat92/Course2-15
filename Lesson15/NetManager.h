@@ -13,5 +13,6 @@
 + (instancetype)sharedInstance;
 - (void)signInUsingLogin:(NSString *)login andPassword:(NSString *)password completion:(void (^)(NSError *error))completion;
 - (void)loadSomeDataProgress:(void (^)(NSInteger progress))progress completion:(void (^)(NSError *error))completion;
-
+- (void)loadSomeDataForRow:(NSInteger)numberOfRow delay:(void (^)(double dellay))dellay completion:(void (^)(NSError *error))completion;
+- (void)signOut:(void (^)(NSError *error))completion;
 @end
