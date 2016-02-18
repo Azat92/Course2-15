@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5B3E661C665F160090501F /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5B3E611C665ED20090501F /* MBProgressHUD.framework */; };
 		AA5B3E691C6662010090501F /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5B3E681C6662010090501F /* AppViewController.m */; };
 		AA7608F11C662B1600A512BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F01C662B1600A512BD /* main.m */; };
 		AA7608F41C662B1600A512BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7608F31C662B1600A512BD /* AppDelegate.m */; };
@@ -18,16 +19,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05E2EB201C75CD9D00429AB6 /* PBXContainerItemProxy */ = {
+		AA5B3E5E1C665ED20090501F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 05E2EB1B1C75CD9D00429AB6 /* MBProgressHUD.xcodeproj */;
+			containerPortal = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D286A7491518C70F00E13FB8;
 			remoteInfo = "MBProgressHUD Static Library";
 		};
-		05E2EB221C75CD9D00429AB6 /* PBXContainerItemProxy */ = {
+		AA5B3E601C665ED20090501F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 05E2EB1B1C75CD9D00429AB6 /* MBProgressHUD.xcodeproj */;
+			containerPortal = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 1D104D7A1ACA36CC00973364;
 			remoteInfo = "MBProgressHUD Framework";
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05E2EB1B1C75CD9D00429AB6 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
 		AA5B3E671C6662010090501F /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
 		AA5B3E681C6662010090501F /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		AA7608EC1C662B1600A512BD /* Lesson15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson15.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,17 +58,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA5B3E661C665F160090501F /* MBProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05E2EB1C1C75CD9D00429AB6 /* Products */ = {
+		AA5B3E5A1C665ED20090501F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05E2EB211C75CD9D00429AB6 /* libMBProgressHUD.a */,
-				05E2EB231C75CD9D00429AB6 /* MBProgressHUD.framework */,
+				AA5B3E5F1C665ED20090501F /* libMBProgressHUD.a */,
+				AA5B3E611C665ED20090501F /* MBProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,7 +77,7 @@
 		AA7608E31C662B1600A512BD = {
 			isa = PBXGroup;
 			children = (
-				05E2EB1B1C75CD9D00429AB6 /* MBProgressHUD.xcodeproj */,
+				AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */,
 				AA7608EE1C662B1600A512BD /* Lesson15 */,
 				AA7608ED1C662B1600A512BD /* Products */,
 			);
@@ -148,7 +150,6 @@
 				TargetAttributes = {
 					AA7608EB1C662B1600A512BD = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 297TYVA87M;
 					};
 				};
 			};
@@ -165,8 +166,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 05E2EB1C1C75CD9D00429AB6 /* Products */;
-					ProjectRef = 05E2EB1B1C75CD9D00429AB6 /* MBProgressHUD.xcodeproj */;
+					ProductGroup = AA5B3E5A1C665ED20090501F /* Products */;
+					ProjectRef = AA5B3E591C665ED20090501F /* MBProgressHUD.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -177,18 +178,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		05E2EB211C75CD9D00429AB6 /* libMBProgressHUD.a */ = {
+		AA5B3E5F1C665ED20090501F /* libMBProgressHUD.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libMBProgressHUD.a;
-			remoteRef = 05E2EB201C75CD9D00429AB6 /* PBXContainerItemProxy */;
+			remoteRef = AA5B3E5E1C665ED20090501F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		05E2EB231C75CD9D00429AB6 /* MBProgressHUD.framework */ = {
+		AA5B3E611C665ED20090501F /* MBProgressHUD.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = MBProgressHUD.framework;
-			remoteRef = 05E2EB221C75CD9D00429AB6 /* PBXContainerItemProxy */;
+			remoteRef = AA5B3E601C665ED20090501F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -327,14 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Lesson15/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nikSoldatov.Lesson15;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.azatalmeev.Lesson15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -342,14 +339,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Lesson15/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nikSoldatov.Lesson15;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.azatalmeev.Lesson15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

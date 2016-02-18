@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "NetManager.h"
-#import "MBProgressHUD/MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface LoginViewController () <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *loginTextField;
@@ -36,24 +36,11 @@
     }];
 }
 
--(void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:YES];
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    if ([userDefaults objectForKey:@"login"]) {
-        [self performSegueWithIdentifier:@"SignInSegue" sender:nil];
-    }
-}
-
 - (IBAction)logoutSegue:(UIStoryboardSegue *)sender {
-    NSUserDefaults *userDef = [NSUserDefaults standardUserDefaults];
-    [userDef removeObjectForKey:@"login"];
-    [userDef removeObjectForKey:@"password"];
+    
 }
 
 - (IBAction)signInButtonDidClick:(UIButton *)sender {
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setObject:@"login" forKey:@"login"];
-    [userDefaults setObject:@"password" forKey:@"password"];
     [self.loginTextField resignFirstResponder];
     [self.passwordTextField resignFirstResponder];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
