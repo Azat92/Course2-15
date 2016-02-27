@@ -11,7 +11,7 @@
 
 @interface Fruit : NSObject
 
-@property NSString *fruitName;
+@property (nonatomic) NSString *fruitName;
 @property NSURL *thumb;
 @property NSURL *img;
 

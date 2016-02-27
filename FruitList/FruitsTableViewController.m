@@ -42,10 +42,7 @@
 }
 
 - (IBAction)loadFruits:(id)sender {
-    if (self.fruits.count !=  0) {
-        [self.fruits removeAllObjects];
-    }
-    
+    __block NSMutableArray *fruits = [NSMutableArray new];
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.labelText = @"Loading";
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
@@ -58,11 +55,14 @@
             fruit.fruitName = d[@"title"];
             fruit.thumb = [NSURL URLWithString:d[@"thumb"]];
             fruit.img = [NSURL URLWithString:d[@"img"]];
-            [self.fruits addObject:fruit];
+            [fruits addObject:fruit];
         }
         
         dispatch_async(dispatch_get_main_queue(), ^{
             [hud hide:YES];
+            self.fruits = nil;
+            self.fruits = fruits;
+            fruits = nil;
             [self.tableView reloadData];
         });
     });
