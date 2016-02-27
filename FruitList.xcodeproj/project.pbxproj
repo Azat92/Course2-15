@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B0E2F71C818C6A00E7E64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E2F61C818C6A00E7E64F /* main.m */; };
+		23B0E2FA1C818C6A00E7E64F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E2F91C818C6A00E7E64F /* AppDelegate.m */; };
+		23B0E3001C818C6A00E7E64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B0E2FE1C818C6A00E7E64F /* Main.storyboard */; };
+		23B0E3021C818C6A00E7E64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B0E3011C818C6A00E7E64F /* Assets.xcassets */; };
+		23B0E3051C818C6A00E7E64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B0E3031C818C6A00E7E64F /* LaunchScreen.storyboard */; };
+		23B0E30E1C818E7500E7E64F /* FruitsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E30D1C818E7500E7E64F /* FruitsTableViewController.m */; };
+		23B0E3111C818E9900E7E64F /* FriutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E3101C818E9900E7E64F /* FriutTableViewCell.m */; };
+		23B0E3141C81919F00E7E64F /* FruitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E3131C81919F00E7E64F /* FruitViewController.m */; };
+		23B0E3171C81933300E7E64F /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B0E3161C81933300E7E64F /* Fruit.m */; };
+		B8353D5E5CB92F5D9CC963BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FFFA1C770C5737B1AF11B0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B0E2F21C818C6A00E7E64F /* FruitList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B0E2F61C818C6A00E7E64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23B0E2F81C818C6A00E7E64F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23B0E2F91C818C6A00E7E64F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23B0E2FF1C818C6A00E7E64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23B0E3011C818C6A00E7E64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23B0E3041C818C6A00E7E64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23B0E3061C818C6A00E7E64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B0E30C1C818E7500E7E64F /* FruitsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitsTableViewController.h; sourceTree = "<group>"; };
+		23B0E30D1C818E7500E7E64F /* FruitsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitsTableViewController.m; sourceTree = "<group>"; };
+		23B0E30F1C818E9900E7E64F /* FriutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriutTableViewCell.h; sourceTree = "<group>"; };
+		23B0E3101C818E9900E7E64F /* FriutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriutTableViewCell.m; sourceTree = "<group>"; };
+		23B0E3121C81919F00E7E64F /* FruitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitViewController.h; sourceTree = "<group>"; };
+		23B0E3131C81919F00E7E64F /* FruitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitViewController.m; sourceTree = "<group>"; };
+		23B0E3151C81933300E7E64F /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		23B0E3161C81933300E7E64F /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		3FCE9127F9C438230AADCE22 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2FFFA1C770C5737B1AF11B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1806694EEA38C1A2A330E6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B0E2EF1C818C6A00E7E64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8353D5E5CB92F5D9CC963BB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B0E2E91C818C6A00E7E64F = {
+			isa = PBXGroup;
+			children = (
+				23B0E2F41C818C6A00E7E64F /* FruitList */,
+				23B0E2F31C818C6A00E7E64F /* Products */,
+				916C56A20A10290C561AF26C /* Pods */,
+				A4F9235A077F48094EFFCB15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23B0E2F31C818C6A00E7E64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E2F21C818C6A00E7E64F /* FruitList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B0E2F41C818C6A00E7E64F /* FruitList */ = {
+			isa = PBXGroup;
+			children = (
+				23D653DB1C82420F000276C2 /* Controllers */,
+				23D653DA1C8241FD000276C2 /* Models */,
+				23B0E2F81C818C6A00E7E64F /* AppDelegate.h */,
+				23B0E2F91C818C6A00E7E64F /* AppDelegate.m */,
+				23B0E2FE1C818C6A00E7E64F /* Main.storyboard */,
+				23B0E3011C818C6A00E7E64F /* Assets.xcassets */,
+				23B0E3031C818C6A00E7E64F /* LaunchScreen.storyboard */,
+				23B0E3061C818C6A00E7E64F /* Info.plist */,
+				23B0E2F51C818C6A00E7E64F /* Supporting Files */,
+			);
+			path = FruitList;
+			sourceTree = "<group>";
+		};
+		23B0E2F51C818C6A00E7E64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E2F61C818C6A00E7E64F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23D653DA1C8241FD000276C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E30F1C818E9900E7E64F /* FriutTableViewCell.h */,
+				23B0E3101C818E9900E7E64F /* FriutTableViewCell.m */,
+				23B0E3151C81933300E7E64F /* Fruit.h */,
+				23B0E3161C81933300E7E64F /* Fruit.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		23D653DB1C82420F000276C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23B0E30C1C818E7500E7E64F /* FruitsTableViewController.h */,
+				23B0E30D1C818E7500E7E64F /* FruitsTableViewController.m */,
+				23B0E3121C81919F00E7E64F /* FruitViewController.h */,
+				23B0E3131C81919F00E7E64F /* FruitViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		916C56A20A10290C561AF26C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF1806694EEA38C1A2A330E6 /* Pods.debug.xcconfig */,
+				3FCE9127F9C438230AADCE22 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4F9235A077F48094EFFCB15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFFA1C770C5737B1AF11B0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B0E2F11C818C6A00E7E64F /* FruitList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B0E3091C818C6A00E7E64F /* Build configuration list for PBXNativeTarget "FruitList" */;
+			buildPhases = (
+				36F12E53ED616FFBB234F7AA /* Check Pods Manifest.lock */,
+				23B0E2EE1C818C6A00E7E64F /* Sources */,
+				23B0E2EF1C818C6A00E7E64F /* Frameworks */,
+				23B0E2F01C818C6A00E7E64F /* Resources */,
+				F3372EC78B51A60883BDECF4 /* Embed Pods Frameworks */,
+				7BD6B8EDCEFEA524FAD4278C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitList;
+			productName = FruitList;
+			productReference = 23B0E2F21C818C6A00E7E64F /* FruitList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B0E2EA1C818C6A00E7E64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Эдуард Рязапов";
+				TargetAttributes = {
+					23B0E2F11C818C6A00E7E64F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 23B0E2ED1C818C6A00E7E64F /* Build configuration list for PBXProject "FruitList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B0E2E91C818C6A00E7E64F;
+			productRefGroup = 23B0E2F31C818C6A00E7E64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B0E2F11C818C6A00E7E64F /* FruitList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B0E2F01C818C6A00E7E64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B0E3051C818C6A00E7E64F /* LaunchScreen.storyboard in Resources */,
+				23B0E3021C818C6A00E7E64F /* Assets.xcassets in Resources */,
+				23B0E3001C818C6A00E7E64F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F12E53ED616FFBB234F7AA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD6B8EDCEFEA524FAD4278C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3372EC78B51A60883BDECF4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B0E2EE1C818C6A00E7E64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B0E3171C81933300E7E64F /* Fruit.m in Sources */,
+				23B0E3111C818E9900E7E64F /* FriutTableViewCell.m in Sources */,
+				23B0E2FA1C818C6A00E7E64F /* AppDelegate.m in Sources */,
+				23B0E30E1C818E7500E7E64F /* FruitsTableViewController.m in Sources */,
+				23B0E3141C81919F00E7E64F /* FruitViewController.m in Sources */,
+				23B0E2F71C818C6A00E7E64F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23B0E2FE1C818C6A00E7E64F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B0E2FF1C818C6A00E7E64F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23B0E3031C818C6A00E7E64F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B0E3041C818C6A00E7E64F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B0E3071C818C6A00E7E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23B0E3081C818C6A00E7E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B0E30A1C818C6A00E7E64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1806694EEA38C1A2A330E6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FruitList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryazapov.FruitList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23B0E30B1C818C6A00E7E64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCE9127F9C438230AADCE22 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FruitList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryazapov.FruitList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B0E2ED1C818C6A00E7E64F /* Build configuration list for PBXProject "FruitList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B0E3071C818C6A00E7E64F /* Debug */,
+				23B0E3081C818C6A00E7E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B0E3091C818C6A00E7E64F /* Build configuration list for PBXNativeTarget "FruitList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B0E30A1C818C6A00E7E64F /* Debug */,
+				23B0E30B1C818C6A00E7E64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B0E2EA1C818C6A00E7E64F /* Project object */;
+}
