@@ -7,6 +7,7 @@
 //
 
 #import "NetManager.h"
+#import "TableViewController.h"
 
 @implementation NetManager
 
@@ -39,7 +40,15 @@
     });
 }
 
-- (void)loadSomeDataProgress:(void (^)(NSInteger progress))progress completion:(void (^)(NSError *error))completion {
+- (void)signOutCompletion:(void (^)(NSError *error))completion {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(arc4random_uniform(3) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        completion(nil);
+    });
+}
+
+
+- (void)loadSomeDataProgress:(void (^)(NSInteger progress))progress completion:(void (^)(NSError *error ))completion {
+   
     for (int i = 0; i < 10; i++)
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((2 * i + arc4random_uniform(2)) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             progress((i + 1) * 10);
@@ -47,6 +56,15 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(22 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         completion(nil);
     });
+}
+
+-(NSString *)getDataWithNumber:(NSInteger *)number completion:(void (^)(NSError *error))completion {
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(arc4random_uniform(3) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        completion(nil);
+    });
+
+    return @"";
 }
 
 @end
