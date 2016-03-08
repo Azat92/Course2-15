@@ -31,11 +31,18 @@
 }
 
 - (void)signInUsingLogin:(NSString *)login andPassword:(NSString *)password completion:(void (^)(NSError *error))completion {
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(arc4random_uniform(3) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(arc4random_uniform(3) * NSEC_PER_SEC));
+    dispatch_after(time, dispatch_get_main_queue(), ^{
         if ([login isEqualToString:@"login"] && [password isEqualToString:@"password"])
             completion(nil);
         else
             completion([NSError errorWithDomain:@"network" code:401 userInfo:@{ NSLocalizedDescriptionKey : @"Invalid username or password" }]);
+    });
+}
+
+- (void)signOut:(void (^)(NSError *error))completion {
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(arc4random_uniform(3)* NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        completion(nil);
     });
 }
 
@@ -47,6 +54,19 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(22 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         completion(nil);
     });
+}
+
+
+- (void)loadSomeDataForRow:(NSInteger)numberOfRow delay:(void (^)(double dellay))dellay completion:(void (^)(NSError *error))completion{
+    double timeDellay = arc4random_uniform(5);
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timeDellay * NSEC_PER_MSEC)),  dispatch_get_main_queue(), ^{
+        dellay (timeDellay);
+    });
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((timeDellay+1) * NSEC_PER_SEC)),  dispatch_get_main_queue(), ^{
+        completion(nil);
+    });
+
 }
 
 @end
